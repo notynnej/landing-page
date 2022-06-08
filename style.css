@@ -4,11 +4,13 @@ body {
     margin: 0;
     font-family: Hero, sans-serif;
 }
+.header, .row1, .row2, .row3, .row4, .footer {
+    padding: 30px;
+}
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
 }
 .header, .row1 {
     background-color: #1f2937;
@@ -38,7 +40,6 @@ ul, .hero-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px 30px;
     gap: 20px;
 }
 .hero-title {
@@ -59,6 +60,7 @@ ul, .hero-text {
     color: white;
     font-weight: bold;
     font-size: 14px;
+    border: 1px solid #3882F6;
 }
 .row1-img-mod {
     width: 600px;
@@ -67,8 +69,74 @@ ul, .hero-text {
     font-weight: bolder;
     color: #1f2937;
     font-size: 36px;
-}
-.row2 {
-    margin: 20px auto;
     text-align: center;
+}
+.row2-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px 40px;
+    margin-top: 20px;
+}
+.row2-img-mod {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.row2-img {
+    width: 200px;
+    text-align: center;
+}
+.row3 {
+    background-color: #E5E7EB;
+}
+.row3-text {
+    padding: 20px 0 0 0;
+    width: 850px;
+    margin: 0 auto;
+}
+.row3-quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.row3-author {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
+.row4-content {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 40px 80px;
+}
+.row4-call {
+    font-size: 24px;
+    font-weight: bold;
+}
+.row4-button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
