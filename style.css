@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: Hero, sans-serif;
+    font-family: Roboto, sans-serif ;
 }
 .header, .row1, .row2, .row3, .row4, .footer {
     padding: 30px;
